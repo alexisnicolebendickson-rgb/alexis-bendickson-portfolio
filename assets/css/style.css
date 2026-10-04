@@ -331,3 +331,11 @@ h2.section-title {
 }
 
 .fine-print{font-size:.82rem;color:var(--muted);margin-top:10px}
+
+/* Portrait in page hero */
+.hero-portrait { margin: 1.75rem 0 0; }
+.hero-portrait img {
+  width: 168px; height: 168px; object-fit: cover; border-radius: 50%;
+  border: 3px solid var(--gold, #c9a227);
+  box-shadow: 0 6px 24px rgba(0,0,0,.18); display: block;
+}
