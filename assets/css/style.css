@@ -339,3 +339,7 @@ h2.section-title {
   border: 3px solid var(--gold, #c9a227);
   box-shadow: 0 6px 24px rgba(0,0,0,.18); display: block;
 }
+
+.product-photo { overflow: hidden; }
+.product-photo img { display: block; width: 100%; height: auto; }
+.merch-series { font-family: var(--serif); font-size: 1.15rem; margin: 26px 0 14px; }
