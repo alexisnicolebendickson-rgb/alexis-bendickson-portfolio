@@ -162,8 +162,8 @@ if 'studio-weddings-01' in html:
 
 sections = []
 sections.append('''      <section class="block tight">
-        <p class="kicker">Studio work</p>
-        <h2 class="section-title">The studio years</h2>
+        <p class="kicker">Client work</p>
+        <h2 class="section-title">The business years</h2>
         <p class="section-sub">From the studio years, 2014–2018 — weddings, maternity, newborns, seniors, families, and empowerment sessions for more than 200 clients across Missouri and Kansas.</p>
       </section>''')
 
@@ -179,7 +179,7 @@ for folder, slug, title, sub, items in G:
         figs.append(f'          <figure><img src="assets/img/{name}" alt="{label}: {alt}" loading="lazy" /></figure>')
         total += 1
     sections.append(f'''      <section class="block tight">
-        <p class="kicker">Studio work</p>
+        <p class="kicker">Client work</p>
         <h2 class="section-title">{title}</h2>
         <p class="section-sub">{sub}</p>
         <div class="photo-grid">
